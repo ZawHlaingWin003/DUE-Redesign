@@ -1,0 +1,190 @@
+/* 
+Template Name: Greatly - The Multipurpose HTML5 Template
+Author: envatoprime
+Author Email: envatoprime@gmail.com
+Version: 1.00
+*/
+
+.gradient-text {
+	background: linear-gradient(45deg, #ec1d25, #00aeef);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	display: inline-block;
+}
+/* #00AEEF */
+.text-brand {
+	color: #00aeef;
+}
+.section-heading span {
+	color: #00aeef;
+}
+.reflection-text div i {
+	color: #00aeef;
+}
+.reflection-text div .one {
+	background: #00aeef;
+}
+.reflection-text div .two {
+	background: #00aeef;
+}
+.mybtn {
+	background-color: #00aeef;
+}
+nav.navbar-fixed .main-logo span {
+	color: #00aeef;
+}
+nav.navbar-fixed ul li a::before {
+	background: #00aeef;
+}
+
+nav.navbar-fixed .navbar-nav li a:hover {
+	color: #00aeef;
+}
+
+nav.navbar-fixed .navbar-nav li a:hover {
+	color: #00aeef;
+}
+nav.navbar-fixed .navbar-nav li a.active {
+	color: #00aeef;
+}
+.video-play-button:before {
+	background: #00aeef;
+}
+.video-play-button:after {
+	background: #00aeef;
+}
+.video-play-button:hover:after {
+	background-color: #00aeef;
+}
+.video-overlay-close:hover {
+	color: #00aeef;
+}
+.about-info h5 span,
+.about_history h5 span {
+	color: #00aeef;
+}
+.feature-box:after {
+	border-right: 3px solid #00aeef;
+	border-bottom: 3px solid #00aeef;
+}
+.feature-box:before {
+	border-top: 3px solid #00aeef;
+	border-left: 3px solid #00aeef;
+}
+.feature-icon i {
+	color: #00aeef;
+}
+
+.protfolio-filter li {
+	border: 2px solid #00aeef;
+}
+.protfolio-filter li:hover {
+	background: #00aeef;
+}
+
+.protfolio-filter li.active {
+	background: #00aeef;
+}
+
+.portfolio-category a:hover {
+	color: #00aeef;
+}
+.progress .progress-bar {
+	background-color: #00aeef;
+}
+#testimonial .test-content .works {
+	background: #00aeef;
+}
+
+#team .team_slider_item_info ul li a i:hover {
+	color: #00aeef;
+}
+
+.blogs .blog-box .blog-details h3 a:hover {
+	color: #00aeef;
+}
+.blogs .blog-box .blog-details .meta li a:hover {
+	color: #00aeef;
+}
+.all_blogs.blogs .blog-box:hover .blog-images .box {
+	background: #00aeef;
+}
+.blog-details .btn:hover {
+	color: #00aeef;
+}
+.blog-details .btn:hover i {
+	color: #00aeef;
+}
+.consultation-form .img-box {
+	background: #00aeef;
+}
+.contact-address {
+	background: #00aeef;
+}
+#copyright a:hover {
+	color: #00aeef;
+}
+.back-top-btn {
+	background: #00aeef;
+}
+.slick-next:before {
+	color: #00aeef;
+	border: 0px solid #00aeef;
+}
+.slick-prev:before {
+	color: #00aeef;
+	border: 0px solid #00aeef;
+}
+
+#loader-wrapper .loader-section {
+	background: #00aeef;
+}
+
+#slider1 .silder .owl-nav div:hover,
+#slider1 .portfolio-slide .owl-nav div:hover,
+#slider1 .related-port .owl-nav div:hover {
+	background-color: #00aeef;
+}
+#slider1 .silder .owl-nav div,
+#slider1 .portfolio-slide .owl-nav div {
+	border: 2px solid #00aeef;
+}
+
+.slick-prev:hover::before,
+.slick-prev:focus::before,
+.slick-next:hover::before,
+.slick-next:focus::before {
+	color: #00aeef;
+}
+.protfolio-filter li {
+	border: 2px solid #00aeef !important;
+}
+.protfolio-filter li,
+#testimonial .slick-arrow i {
+	color: #00aeef;
+}
+.item-thumbnail::before {
+	background: rgb(1, 57, 144, 0.8);
+}
+#testimonial .slick-arrow {
+	border: 2px solid #00aeef;
+}
+#testimonial .slick-arrow:hover {
+	background: #00aeef;
+}
+#team .team_slider_item:hover .t-box {
+	background: rgb(1, 57, 144, 0.9);
+}
+
+nav.navbar-fixed .nav-link::before {
+	background: #00aeef;
+}
+
+@media (max-width: 991px) {
+	nav ul li .nav-link.active {
+		color: #00aeef !important;
+	}
+	nav.navbar-fixed ul li .nav-link.active {
+		color: #00aeef !important;
+	}
+}
