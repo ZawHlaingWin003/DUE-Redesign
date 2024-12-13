@@ -344,7 +344,7 @@ nav .navbar-nav li:last-child a {
 ================================================== */
 
 #slider {
-	background: url(../images/slider/3.jpg) no-repeat center;
+	background: url(..images/slider/3.jpg) no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
@@ -882,7 +882,7 @@ nav .navbar-nav li:last-child a {
 =======================================*/
 
 #fact {
-	background: url(../images/slider/2.jpg) no-repeat center;
+	background: url(..images/slider/2.jpg) no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 	padding: 90px 0px 100px;
