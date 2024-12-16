@@ -3,6 +3,42 @@ $(document).ready(function () {
     setTimeout(function () {
         $('body').addClass('loaded');
     }, 3000);
+
+    $('.testimonial_slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        centerMode: true,
+        centerPadding: '20px',
+        autoplay: true,
+        autoplaySpeed: 2000,
+        pauseOnHover: false,
+        arrows: true,
+        responsive: [{
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3
+            }
+        },
+        {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+            }
+        },
+        {
+            breakpoint: 575,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+        ]
+    });
 })
 
 $(function ($) {
@@ -157,7 +193,7 @@ $(function ($) {
     // Testimonial js
     $('.post-slider').slick({
         slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToScroll: 3,
         autoplay: false,
         autoplaySpeed: 2000,
         arrows: false,
@@ -171,15 +207,15 @@ $(function ($) {
         {
             breakpoint: 992,
             settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
+                slidesToShow: 3,
+                slidesToScroll: 3
             }
         },
         {
             breakpoint: 575,
             settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
+                slidesToShow: 3,
+                slidesToScroll: 3
             }
         }
             // You can unslick at a given breakpoint now by adding:
@@ -192,8 +228,8 @@ $(function ($) {
     //testimonial
     // :: 2.0 Slick Active Code
     $('.slider-for').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
+        slidesToShow: 3,
+        slidesToScroll: 2,
         speed: 500,
         arrows: true,
         fade: true,
@@ -208,11 +244,11 @@ $(function ($) {
         speed: 500,
         asNavFor: '.slider-for',
         dots: false,
-        centerMode: true,
+        centerMode: false,
         focusOnSelect: true,
         slide: 'div',
         autoplay: true,
-        centerMode: true,
+        centerMode: false,
         arrows: false,
         centerPadding: '10px',
         mobileFirst: true,
@@ -220,36 +256,36 @@ $(function ($) {
             {
                 breakpoint: 1324,
                 settings: {
-                    slidesToShow: 5,
-                    slidesToScroll: 1
+                    slidesToShow: 3,
+                    slidesToScroll: 2
                 }
             },
             {
                 breakpoint: 1024,
                 settings: {
                     slidesToShow: 3,
-                    slidesToScroll: 1
+                    slidesToScroll: 2
                 }
             },
             {
                 breakpoint: 600,
                 settings: {
                     slidesToShow: 3,
-                    slidesToScroll: 1
+                    slidesToScroll: 2
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 3,
-                    slidesToScroll: 1
+                    slidesToScroll: 2
                 }
             },
             {
                 breakpoint: 300,
                 settings: {
                     slidesToShow: 3,
-                    slidesToScroll: 1
+                    slidesToScroll: 2
                 }
             }
             // You can unslick at a given breakpoint now by adding:

@@ -154,7 +154,7 @@ nav.navbar-fixed .navbar-nav li a.active {
 .slick-prev:focus::before,
 .slick-next:hover::before,
 .slick-next:focus::before {
-	color: #00aeef;
+	color: white;
 }
 .protfolio-filter li {
 	border: 2px solid #00aeef !important;

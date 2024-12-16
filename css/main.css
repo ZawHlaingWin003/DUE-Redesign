@@ -1339,7 +1339,23 @@ nav .navbar-nav li:last-child a {
 	-moz-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-
+.testimonial_slider .item {
+	padding: 0 5px;
+}
+#testimonial .slick-slide.slick-current .testimony-wrap {
+	background: #33bef2;
+	color: white !important;
+}
+#testimonial .slick-slide.slick-current .testimony-wrap p {
+	color: white !important;
+}
+#testimonial .slick-slide.slick-current .testimony-wrap .icon {
+	background: white;
+	color: #33bef2;
+}
+#testimonial .slick-list {
+	padding-top: 20px !important;
+}
 #testimonial .slick-arrow .fa-angle-right {
 	left: auto;
 	right: 0;
@@ -1364,12 +1380,15 @@ nav .navbar-nav li:last-child a {
 #testimonial .slick-arrow:first-child {
 	position: absolute;
 	left: -140px;
+	top: 50%;
+	transform: translateY(50%);
 }
 
 #testimonial .slick-arrow:last-child {
 	position: absolute;
 	right: -140px;
-	top: 0%;
+	top: 50%;
+	transform: translateY(50%);
 }
 
 #testimonial .slick-arrow:last-child i {
@@ -2073,4 +2092,98 @@ nav .navbar-nav li:last-child a {
 .call-to-action .container {
 	position: relative;
 	z-index: 3;
+}
+
+/* Testimonial */
+.testimony-wrap {
+	display: block;
+	position: relative;
+	background: white;
+	/* border: 1px solid red; */
+	padding: 30px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0px 30px 33px -41px rgba(0, 0, 0, 0.24);
+	-moz-box-shadow: 0px 30px 33px -41px rgba(0, 0, 0, 0.24);
+	box-shadow: 0px 30px 33px -41px rgba(0, 0, 0, 0.24);
+}
+.testimony-wrap .icon {
+	position: absolute;
+	color: white;
+	top: -20px;
+	left: 30px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #33bef2;
+}
+.testimony-wrap .name {
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+.testimony-wrap .position {
+	font-size: 0.8rem;
+}
+
+.shop-list .col-md-4 {
+	padding: 0 10px;
+}
+
+.shop-card {
+	transition: all 0.5s;
+	border: 0;
+	margin-bottom: 20px;
+	cursor: pointer;
+	height: 100%;
+	background-color: rgb(250, 250, 250);
+}
+.shop-card:hover {
+	box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+.shop-card img {
+	object-fit: contain;
+	height: 200px;
+}
+.shop-card .brand {
+	font-size: 0.8rem;
+	padding: 4px 6px;
+	display: inline-block;
+	background: rgba(51, 191, 242, 0.1);
+	color: #33bef2;
+	border-radius: 4px;
+}
+.shop-card .mybtn {
+	padding: 6px 12px;
+	letter-spacing: 2px;
+	font-size: 0.8rem;
+}
+
+.brand-tag-cloud {
+	background: rgb(245, 245, 245);
+	padding: 20px;
+	border-radius: 5px;
+}
+.brand-tag-cloud .brand.active {
+	background: rgba(51, 191, 242, 0.1);
+	color: #33bef2;
+}
+
+.brand-tag-cloud .brand {
+	cursor: pointer;
+	font-size: 0.8rem;
+	padding: 4px 10px;
+	display: inline-block;
+	background: rgba(230, 230, 230);
+	color: gray;
+	border-radius: 4px;
+}
+
+.product-detail .brand {
+	cursor: pointer;
+	font-size: 0.8rem;
+	padding: 4px 10px;
+	display: inline-block;
+	background: rgba(51, 191, 242, 0.1);
+	color: #33bef2;
+	border-radius: 4px;
 }
